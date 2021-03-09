@@ -1,0 +1,42 @@
+@charset "utf-8";
+header{
+/*    position: static;*/
+/*    position: fixed;*/
+/*    position: absolute;*/
+/*    position: relative;*/
+      position: absolute;
+}
+main{padding-top:100px;}
+footer{
+    position:fixed;
+    width:100%;
+    /* a böngészőhöz képest 0 0px magasságban pozícionál */
+    /* top bottom left right */
+    left:0px;
+    bottom:0px;
+}
+#kerdojel{
+    position: fixed;
+    bottom:0px;
+    right:0px;
+    z-index:10;
+}
+nav{
+    position: absolute;
+    left:10px;
+}
+#zar{
+       position: absolute;
+       top:12px;
+       right:10px;
+}
+form{
+    position: relative;
+    
+    
+}
+#szamol{
+    position: 
+        relative;
+    right: 202px;
+}
